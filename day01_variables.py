@@ -1,0 +1,41 @@
+name="乐乐"
+age=20
+height=1.70
+is_student=True
+
+print(name)
+print(age)
+print(height)
+print(is_student)
+
+print(type(name))
+print(type(age))
+print(type(height))
+print(type(is_student))
+# 字符串操作
+greeting="Hello,"+name
+print(greeting)
+print(len(name))
+# 数字运算
+a=10
+b=3
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
+# 布尔和比较
+print(5 > 3)
+print(5 == 3)
+print(5 != 3)
+# 类型转换
+str_age = str(age)
+int_height = int(1.75)
+print(str_age, int_height)
+
+name1="杨景乐"
+age=20
+is_love_python=True
+print(f"姓名:{name},年龄：{age},是否喜欢python{is_love_python}")
